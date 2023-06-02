@@ -321,7 +321,6 @@ raycast.engine = (function () {
     
     g.putImageData(imagedata, 0, 0);
     g.font = "bold 30pt Monospace";
-    g.fillText(""+((1000 / (time - oldTime))|0), 0, 30);
   };
 
   function tick() {
